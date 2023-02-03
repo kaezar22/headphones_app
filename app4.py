@@ -23,7 +23,7 @@ df = pd.read_csv('C:/Users/ASUS/Documents/Python Scripts/Headphones/headphones_c
 col8, col9 = st.columns(2)
 #with col8:
     
-    st.title('HEADPHONES WORLD')
+st.title('HEADPHONES WORLD')
 #with col9:
  #   st.image(image, caption=None, width = 140 )
 st.header('Hearing the latest trends on headphones available to buy on-line.\n ')
