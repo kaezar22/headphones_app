@@ -8,7 +8,7 @@ Created on Tue Jan 31 08:36:06 2023
 
 import pandas as pd
 import numpy as np
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import seaborn as sns
 import matplotlib as mpl
@@ -18,14 +18,14 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 df = pd.read_csv('C:/Users/ASUS/Documents/Python Scripts/Headphones/headphones_clean.csv')
-image = Image.open('D:/Beats store/CZR_logo.png')
+#image = Image.open('D:/Beats store/CZR_logo.png')
 
 col8, col9 = st.columns(2)
 with col8:
     
     st.title('HEADPHONES WORLD')
 with col9:
-    st.image(image, caption=None, width = 140 )
+ #   st.image(image, caption=None, width = 140 )
 
 st.header('Hearing the latest trends on headphones available to buy on-line.\n ')
 st.caption('Automatically updated every 3 days')
