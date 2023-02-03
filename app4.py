@@ -21,12 +21,11 @@ df = pd.read_csv('C:/Users/ASUS/Documents/Python Scripts/Headphones/headphones_c
 #image = Image.open('D:/Beats store/CZR_logo.png')
 
 col8, col9 = st.columns(2)
-with col8:
+#with col8:
     
     st.title('HEADPHONES WORLD')
-with col9:
+#with col9:
  #   st.image(image, caption=None, width = 140 )
-
 st.header('Hearing the latest trends on headphones available to buy on-line.\n ')
 st.caption('Automatically updated every 3 days')
 
