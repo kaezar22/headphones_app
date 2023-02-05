@@ -14,11 +14,10 @@ import seaborn as sns
 import matplotlib as mpl
 import streamlit as st
 import altair as alt
-from PIL import Image
+
 
 st.set_page_config(layout="wide")
 df = pd.read_csv('C:/Users/ASUS/Documents/Python Scripts/Headphones/headphones_clean.csv')
-#image = Image.open('D:/Beats store/CZR_logo.png')
 
 col8, col9 = st.columns(2)
 #with col8:
